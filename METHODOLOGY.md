@@ -103,7 +103,7 @@ Pattern that worked on porch/debate packs: tighten CLIP rant by removing repetit
 
 ### 4.1 Specs
 
-- **1080×1920**, ≤ **179.5s hard cap**  
+- **1080×1920**, ≤ **179.5s** hard cap  
 - Encode from **original HEVC**, one generation: `libx264` preset **medium**, **CRF 12**, yuvj420p, pc/full, bt709  
 - Target ~20–26 Mbps. Large file (~500MB+ for ~3 min) is **correct**. No `veryfast`.  
 - Deliver Drive HQ; say “download — Drive preview looks softer.”
@@ -117,50 +117,50 @@ Pattern that worked on porch/debate packs: tighten CLIP rant by removing repetit
 
 ### 4.3 Cut
 
-1. Transcribe with word timestamps.
-2. Cold open on the **claim**. Drop greeting-only opens.
-3. Keep windows = complete thoughts.
+1. Transcribe with word timestamps.  
+2. Cold open on the **claim**. Drop greeting-only opens.  
+3. Keep windows = complete thoughts.  
 4. Loop close if tape returns to first line; hard cut end; no fade-to-black.
 
 ### 4.4 Captions (Shorts grammar)
 
-- Burned from frame 1.
-- **2–4 words**, ALL-CAPS **Anton**, white + black stroke (~outline 5).
-- One **Swarm-gold** punch word `#F5C518` (ASS BGR `&H18C5F5&`).
-- Lower-middle: PlayRes 1080×1920, Alignment 2, **MarginV ~430** (clears Shorts UI + mouth).
+- Burned from frame 1.  
+- **2–4 words**, ALL-CAPS **Anton**, white + black stroke (~outline 5).  
+- One **Swarm-gold** punch word `#F5C518` (ASS BGR `&H18C5F5&`).  
+- Lower-middle: PlayRes 1080×1920, Alignment 2, **MarginV ~430** (clears Shorts UI + mouth).  
 - Not a black box. Not a full sentence. Caption-led. Fix Whisper garbage. As-said only.
 
 ### 4.5 Overlay cards (Shorts)
 
-- Dark rounded plate `(16,16,16,232)`, gold left bar `#F5C518`, gold ALL-CAPS header, white body, small source line.
-- Top of frame, not over mouth.
-- Full-frame transparent PNG; overlay with enable between(t,s,e). Do not `-loop 1 -t` a stack of full-frame PNGs.
+- Dark rounded plate `(16,16,16,232)`, gold left bar `#F5C518`, gold ALL-CAPS header, white body, small source line.  
+- Top of frame, not over mouth.  
+- Full-frame transparent PNG; overlay with enable between(t,s,e). Do not `-loop 1 -t` a stack of full-frame PNGs.  
 - Proof names/certs/exchanges as said. No fake BLS labels.
 
 ### 4.6 Porch / graphic Shorts overlays (extra grammar)
 
 When the Short is porch debate / policy / teaching (not pure talking-head card style):
 
-- **Narrative flow first** — cards frame; no choppy flash-cuts.
+- **Narrative flow first** — cards frame; no choppy flash-cuts.  
 - **Edge-pinned** layout (333 Part 1/2 pin style) but **Swarm colors only** (no McD red):  
   - Top bar flush y=0: brand + **WHY question**  
-  - Bottom: white fact plates that **update with speech**
-- Chart **variety**: line, pie, bubble, bar/column, tables, big stat slams, meters.
-- Hold each graph **~5s**, then a **second takeaway card** that translates meaning.
-- Vertical: **DOAC-style blur fill** so full faces stay in frame — no black box, no weird zoom crop.
-- Music: Swarm intro-style bed ducked under debate (not wall-to-wall over the open). Pack audio reference: porch CLIP_05-style bed level after ~2.5s.
+  - Bottom: white fact plates that **update with speech**  
+- Chart **variety**: line, pie, bubble, bar/column, tables, big stat slams, meters.  
+- Hold each graph **~5s**, then a **second takeaway card** that translates meaning.  
+- Vertical: **DOAC-style blur fill** so full faces stay in frame — no black box, no weird zoom crop.  
+- Music: Swarm intro-style bed ducked under debate (not wall-to-wall over the open). Pack audio reference: porch CLIP_05-style bed level after ~2.5s.  
 - Max encode quality.
 
 ### 4.7 Music
 
-- Original instrumental only. ~122 BPM, upbeat, no vocals.
-- Sidechain-duck under VO. Hits/risers on **section changes** only (handful).
+- Original instrumental only. ~122 BPM, upbeat, no vocals.  
+- Sidechain-duck under VO. Hits/risers on **section changes** only (handful).  
 - Phone-speaker test.
 
 ### 4.8 QC before Drive
 
-- Upright, not mirrored; wardrobe/props match source.
-- Duration ≤179.5s; A/V start together; RMS on every keep.
+- Upright, not mirrored; wardrobe/props match source.  
+- Duration ≤179.5s; A/V start together; RMS on every keep.  
 - Proof stills: hook, each card, mid, close. Continuous motion from frame 1.
 
 ---
@@ -169,12 +169,12 @@ When the Short is porch debate / policy / teaching (not pure talking-head card s
 
 Do this **after** the Short cut is locked.
 
-1. Strongest flattering still (mouth closed; no mid-word / mid-squawk unless disaster *is* the hook).
-2. **Never stretch.** Scale-to-cover, center-crop bias to eyes.
-3. Soft **left fade/blur of the same image** into type column — **no black box / hard seam across face**.
-4. Type: heavy condensed ALL-CAPS, white + one gold punch, black stroke; left stack; off the face.
-5. Copy = **WHY click** in ≤3 short lines (curiosity gap), not a synopsis. Optional small pill (`SATURDAY 9:05`).
-6. 1080×1920 JPG. Offer primary + one alt; Jess locks.
+1. Strongest flattering still (mouth closed; no mid-word / mid-squawk unless disaster *is* the hook).  
+2. **Never stretch.** Scale-to-cover, center-crop bias to eyes.  
+3. Soft **left fade/blur of the same image** into type column — **no black box / hard seam across face**.  
+4. Type: heavy condensed ALL-CAPS, white + one gold punch, black stroke; left stack; off the face.  
+5. Copy = **WHY click** in ≤3 short lines (curiosity gap), not a synopsis. Optional small pill (`SATURDAY 9:05`).  
+6. 1080×1920 JPG. Offer primary + one alt; Jess locks.  
 7. Hold YouTube until she says go.
 
 ---
@@ -185,48 +185,48 @@ Locked reverse-engineer of Ep7-quality Swarm long-form. Method fixed; content fr
 
 ### 6.1 Stack order (do not reorder)
 
-1. Hook trailer (~30–45s)
-2. Who-we-are ID open (~17.6s)
-3. Body (dead-air) + DOAC captions + overlays
-4. Kiss-out
+1. Hook trailer (~30–45s)  
+2. Who-we-are ID open (~17.6s)  
+3. Body (dead-air) + DOAC captions + overlays  
+4. Kiss-out  
 5. Encode HQ + QA ≤160MB → Drive
 
 ### 6.2 Step 1 — Ingest + transcript
 
-- Probe duration/fps/A/V.
-- Transcript + word jsonl.
-- Dead-air keep map: silence ≈ −35dB, min gap ~0.55s, leave ~0.20s breath. Paired trim/atrim for mouth lock.
+- Probe duration/fps/A/V.  
+- Transcript + word jsonl.  
+- Dead-air keep map: silence ≈ −35dB, min gap ~0.55s, leave ~0.20s breath. Paired trim/atrim for mouth lock.  
 - Note: chapter themes, hard stats on tape, cliffhangers, teaching “define X” moments.
 
 ### 6.3 Step 2 — Hook trailer (DOAC energy)
 
-1. **0–3s hard hook** — strongest jaw-drop line on frame 1 + kinetic/lower-third chip.
-2. Topic montage: 5–7 punches from **different** themes (~2.5–5s each). Mid-sentence/cliffhanger OK.
-3. Prefer: readiness conflict, data-before-scale, spicy project tease **without spoil**, stay-human/can’t automate, one career/labor punch.
-4. Short black flashes + `BOHEMIAN SWARM` / `PRACTITIONERS, NOT PUNDITS` type cards between acts.
-5. Approved instrumental bed under VO (duck ~−4dB under speech; swell on type cards; last punch drier). Offset bed **+8.00s** when using the locked Lofi instrumental.
+1. **0–3s hard hook** — strongest jaw-drop line on frame 1 + kinetic/lower-third chip.  
+2. Topic montage: 5–7 punches from **different** themes (~2.5–5s each). Mid-sentence/cliffhanger OK.  
+3. Prefer: readiness conflict, data-before-scale, spicy project tease **without spoil**, stay-human/can’t automate, one career/labor punch.  
+4. Short black flashes + `BOHEMIAN SWARM` / `PRACTITIONERS, NOT PUNDITS` type cards between acts.  
+5. Approved instrumental bed under VO (duck ~−4dB under speech; swell on type cards; last punch drier). Offset bed **+8.00s** when using the locked Lofi instrumental.  
 6. **Do not resolve** the episode in the trailer — leave open loops.
 
 ### 6.4 Step 3 — Who-we-are ID open
 
-1. Black + bed; circle-drop photos + gold ring; grain on **background only**, sharp faces.
-2. Order: **HOST (Jess) → CO-HOST (Thomas) → GUEST → lockup**.
-3. Locked bio chips unless Jess updates. Guest: LinkedIn still + chips; no “work wife/husband”; usually no employer brands.
+1. Black + bed; circle-drop photos + gold ring; grain on **background only**, sharp faces.  
+2. Order: **HOST (Jess) → CO-HOST (Thomas) → GUEST → lockup**.  
+3. Locked bio chips unless Jess updates. Guest: LinkedIn still + chips; no “work wife/husband”; usually no employer brands.  
 4. Lockup: `BOHEMIAN SWARM` / `PRACTITIONERS, NOT PUNDITS` / **`EP N`**.
 
 ### 6.5 Step 4 — Body picture lock
 
-- Start at natural hello/welcome (or agreed cold open).
-- Dead-air only — not hyper-choppy. Complete thoughts.
-- Optional host-only natural beauty; guests untouched. No fake 4K.
+- Start at natural hello/welcome (or agreed cold open).  
+- Dead-air only — not hyper-choppy. Complete thoughts.  
+- Optional host-only natural beauty; guests untouched. No fake 4K.  
 - Stings only on open / rare chapter / close — **silence under conversation** (DOAC intimacy).
 
 ### 6.6 Step 5 — DOAC captions (body only)
 
-- ASS on body talk only — **no** captions on trailer, ID, kiss-out.
-- Bold sans (Liberation/Montserrat Bold) — **not** Shorts Anton.
-- White + heavy black outline; **yellow `#FFE600`** punch word.
-- Lower-center; lift when overlay cards on.
+- ASS on body talk only — **no** captions on trailer, ID, kiss-out.  
+- Bold sans (Liberation/Montserrat Bold) — **not** Shorts Anton.  
+- White + heavy black outline; **yellow `#FFE600`** punch word.  
+- Lower-center; lift when overlay cards on.  
 - Chunks ~3–8 words, speech-timed through keep map. Fix Whisper garbage.
 
 ### 6.7 Step 6 — Overlay system (retention engine)
@@ -246,13 +246,13 @@ Place visuals that **affirm** what is said. Mix types:
 
 **Style lock**
 
-- Dark ~89% rounded card or opaque right pillar; `#F5A623` left/accent bar.
-- ALL-CAPS orange header; bold white body; small grey **source line (org + year)**.
-- Graphs: orange + blue series; **direct labels on points**; staged reveal when possible (title → axes → draw → labels).
-- Hold **6.5–8s** typical; hero graphs **10–12s**. **Never stack two overlays.**
-- Dense cadence in the **first ~8 minutes of watching** (~every 25–45s). Continue mid/late on stats, teaching beats, chapter turns.
-- Official numbers beat spoken ballparks; quiet-correct on the card without dunking on speakers. Every figure in `REAL_STATS.md` with URLs.
-- Teaching cards: define clearly even if Whisper misheard the word.
+- Dark ~89% rounded card or opaque right pillar; `#F5A623` left/accent bar.  
+- ALL-CAPS orange header; bold white body; small grey **source line (org + year)**.  
+- Graphs: orange + blue series; **direct labels on points**; staged reveal when possible (title → axes → draw → labels).  
+- Hold **6.5–8s** typical; hero graphs **10–12s**. **Never stack two overlays.**  
+- Dense cadence in the **first ~8 minutes of watching** (~every 25–45s). Continue mid/late on stats, teaching beats, chapter turns.  
+- Official numbers beat spoken ballparks; quiet-correct on the card without dunking on speakers. Every figure in `REAL_STATS.md` with URLs.  
+- Teaching cards: define clearly even if Whisper misheard the word.  
 - Long critical rants / dense teaching: this is where overlays earn their keep — graph then takeaway so viewers stay engaged through the long wind.
 
 ### 6.8 Step 7 — Kiss-out
@@ -261,17 +261,17 @@ Append Swarm kiss / JOIN THE SWARM after short black (peak-end). No captions on 
 
 ### 6.9 Step 8 — Encode + deliver
 
-- HQ: libx264 CRF ~18–19, yuv420p, AAC, +faststart, 1080p24.
-- QA ≤160MB.
-- Proofs: hook 1s, ID guest circle, 3–5 overlay stills, kiss.
+- HQ: libx264 CRF ~18–19, yuv420p, AAC, +faststart, 1080p24.  
+- QA ≤160MB.  
+- Proofs: hook 1s, ID guest circle, 3–5 overlay stills, kiss.  
 - Drive anyone-with-link; update `DRIVE.md`. Report open timeline + overlay clock table + URL. **Download to review.**
 
 ### 6.10 Long-form anti-patterns
 
-- Cold open only on co-host/guest; static logo-only open; Meet-still guest circle
-- Wall-to-wall music; Shorts Anton on long-form; black-box caption banners
-- Tiny unreadable lower-thirds; double-stacked cards; spoiling trailer cliffhangers early
-- Invented stats; employer pitch on ID cards unless Jess exception
+- Cold open only on co-host/guest; static logo-only open; Meet-still guest circle  
+- Wall-to-wall music; Shorts Anton on long-form; black-box caption banners  
+- Tiny unreadable lower-thirds; double-stacked cards; spoiling trailer cliffhangers early  
+- Invented stats; employer pitch on ID cards unless Jess exception  
 - Shipping without mouth-sync check; Drive preview as quality proof
 
 ---
@@ -282,21 +282,21 @@ No new filming. Package moments from existing episodes.
 
 ### Formula
 
-1. Named famous person OR named fear
-2. A heresy (the claim)
-3. Completes in ~35–45s (prefer ≤45; hard ~60)
-4. **Title IS the heresy** — never “Ep N …”
+1. Named famous person OR named fear  
+2. A heresy (the claim)  
+3. Completes in ~35–45s (prefer ≤45; hard ~60)  
+4. **Title IS the heresy** — never “Ep N …”  
 5. Ends on a **binary question** (“Are you getting paid?” / “Would you leave?”)
 
 ### Cut rules
 
-- Hard start on claim; hard end on question.
-- Cold open — no preamble, no trailer voice.
-- Approve cut plan (IN/OUT + title + closer) before burning tokens.
-- Use `jedit` craft when delivering 9:16 talking-head.
-- First frame: face mid-sentence (or existing mascot on tape).
-- On-screen text: title, 4–8 words, huge Anton caps.
-- Description: one sentence + link to **specific episode**.
+- Hard start on claim; hard end on question.  
+- Cold open — no preamble, no trailer voice.  
+- Approve cut plan (IN/OUT + title + closer) before burning tokens.  
+- Use `jedit` craft when delivering 9:16 talking-head.  
+- First frame: face mid-sentence (or existing mascot on tape).  
+- On-screen text: title, 4–8 words, huge Anton caps.  
+- Description: one sentence + link to **specific episode**.  
 - Weekly cap mindset: ~5 Shorts; post one/day; winners get longer packaged cut later.
 
 Niche wants a sentence that feels slightly illegal and already lives in the body (power bill/town/job rewritten; someone paid off my work; race real / official story incomplete). Not tokenomics or episode labels as the lead.
@@ -362,7 +362,7 @@ Then point Claude at this repo and the specific skill file.
 1. [`skills/jedit/SKILL.md`](skills/jedit/SKILL.md) — talking-head Shorts  
 2. [`skills/jtube-thumb/SKILL.md`](skills/jtube-thumb/SKILL.md) — thumbs  
 3. [`skills/editswarm/SKILL.md`](skills/editswarm/SKILL.md) — full episode  
-4. [`skills/swarm-shorts-elon/SKILL.md`](skills/swarm-shorts-elon/SKILL.md) — episode-clip Shorts formula
+4. [`skills/swarm-shorts-elon/SKILL.md`](skills/swarm-shorts-elon/SKILL.md) — episode-clip Shorts formula  
 
 ---
 
