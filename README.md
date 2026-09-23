@@ -8,10 +8,14 @@ Built so a second editor (or another agent) can follow the same craft without in
 
 | Skill | Use when |
 |-------|----------|
-| [`skills/jedit`](skills/jedit/SKILL.md) | Vertical talking-head Short (1080×1920), burned captions, proof cards, instrumental bed |
-| [`skills/jtube-thumb`](skills/jtube-thumb/SKILL.md) | Shorts thumbnail after pack lock — soft left fade, big WHY type |
-| [`skills/editswarm`](skills/editswarm/SKILL.md) | Full-episode 1080p24: hook trailer → ID open → dead-air body + graph/quote cards + DOAC captions → kiss-out |
-| [`skills/swarm-shorts-elon`](skills/swarm-shorts-elon/SKILL.md) | Clip Shorts from existing episodes — heresy title, ~40s, binary closer |
+| [`skills/jedit/SKILL.md`](skills/jedit/SKILL.md) | Vertical talking-head Short (1080×1920), burned captions, proof cards, instrumental bed |
+| [`skills/jtube-thumb/SKILL.md`](skills/jtube-thumb/SKILL.md) | Shorts thumbnail after pack lock — soft left fade, big WHY type |
+| [`skills/editswarm/SKILL.md`](skills/editswarm/SKILL.md) | Full-episode 1080p24: hook trailer → ID open → dead-air body + graph/quote cards + DOAC captions → kiss-out |
+| [`skills/swarm-shorts-elon/SKILL.md`](skills/swarm-shorts-elon/SKILL.md) | Clip Shorts from existing episodes — heresy title, ~40s, binary closer |
+
+## Start here
+
+**Thomas / Claude:** read [`METHODOLOGY.md`](METHODOLOGY.md) first (ordered pipeline, HARD RULES, rant handling, overlay grammar). Then open the matching skill.
 
 ## How to use
 
@@ -20,7 +24,7 @@ Built so a second editor (or another agent) can follow the same craft without in
 3. Follow the pipeline top-to-bottom; do not skip QC gates.
 4. Hold publish until the show owner QAs the Drive/download file.
 
-## Notes for Thomas
+## Notes for collaborators
 
 - Start with **jedit** on one vertical talking-head clip, then **jtube-thumb**.
 - For long-form, **editswarm** is the full stack (trailers, ID, overlays).
